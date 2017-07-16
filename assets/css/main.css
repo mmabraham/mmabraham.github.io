@@ -3447,3 +3447,37 @@
 	font-size: 5px;
 	color: royalblue;
 }
+
+.project-img {
+	background-size: 100%;
+	min-height: 250px;
+	background-repeat: no-repeat;
+}
+
+.bejeweled-img {
+	background-image: url('../../images/bejeweled-still.png');
+}
+
+.bejeweled-img:hover {
+	background-image: url('../../images/bejeweled.gif');
+}
+
+.chess-img {
+	background-image: url('../../images/chess-still.png');
+}
+
+.chess-img:hover {
+	background-image: url('../../images/chess.gif');
+}
+
+.spotbnb-img {
+	background-image: url('../../images/spotbnb-still.png');
+}
+
+.spotbnb-img:hover {
+	background-image: url('../../images/spotbnb.gif');
+}
+
+.project-description {
+	min-height: 270px;
+}
