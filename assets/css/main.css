@@ -2443,7 +2443,7 @@
 			}
 
 				ul.actions li:last-child {
-					padding-right: 0;
+					/* padding-right: 0; */
 				}
 
 			ul.actions.small li {
@@ -3409,7 +3409,7 @@
 		/* Basic */
 
 			html, body {
-				min-width: 320px;
+				/* min-width: 320px; */
 			}
 
 		/* Main */
@@ -3444,7 +3444,7 @@
 	position: absolute;
 	top: 10px;
 	right: 10px;
-	font-size: 5px;
+	opacity: 0.1;
 	color: royalblue;
 }
 
@@ -3452,6 +3452,11 @@
 	background-size: 100%;
 	min-height: 250px;
 	background-repeat: no-repeat;
+}
+
+.main-action {
+	margin-top: 1rem;
+	min-width: 140px;
 }
 
 .bejeweled-img {
@@ -3480,4 +3485,8 @@
 
 .project-description {
 	min-height: 270px;
+}
+
+.footer-links > div {
+	padding: 0.5rem 0 0;
 }
